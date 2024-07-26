@@ -270,7 +270,7 @@ namespace neopixel {
          */
         //% blockId="neopixel_length" block="%strip|length" blockGap=8
         //% strip.defl=strip
-        //% weight=60 advanced=true
+        //% weight=6 advanced=true
         length() {
             return this._length;
         }
@@ -383,7 +383,7 @@ namespace neopixel {
         /**
          * Estimates the electrical current (mA) consumed by the current light configuration.
          */
-        //% weight=9 blockId=neopixel_power block="%strip|power (mA)"
+        //% weight=5 blockId=neopixel_power block="%strip|power (mA)"
         //% strip.defl=strip
         //% advanced=true
         power(): number {
