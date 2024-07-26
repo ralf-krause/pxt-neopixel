@@ -22,7 +22,12 @@
         "neotest.ts"
     ],
     "public": true,
+    "targetVersions": {
+        "target": "6.0.41",
+        "targetId": "calliopemini"
+    },
     "supportedTargets": [
+        "calliopemini",
         "microbit"
     ],
     "preferredEditor": "tsprj",
