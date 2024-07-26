@@ -511,7 +511,7 @@ namespace neopixel {
      * @param green value of the green channel between 0 and 255. eg: 255
      * @param blue value of the blue channel between 0 and 255. eg: 255
      */
-    //% weight=2
+    //% weight=2 blockGap=8
     //% blockId="neopixel_rgb" block="red %red|green %green|blue %blue"
     //% advanced=true
     export function rgb(red: number, green: number, blue: number): number {
@@ -551,7 +551,7 @@ namespace neopixel {
      * @param l luminosity from 0 to 99
      */
     //% blockId=neopixelHSL block="hue %h|saturation %s|luminosity %l"
-    //% weight=1 blockGap=8
+    //% weight=1 blockGap=50
     //% advanced=true
 export function hsl(h: number, s: number, l: number): number {
         h = Math.round(h);
