@@ -511,7 +511,7 @@ namespace neopixel {
      * @param green value of the green channel between 0 and 255. eg: 255
      * @param blue value of the blue channel between 0 and 255. eg: 255
      */
-    //% weight=1
+    //% weight=2
     //% blockId="neopixel_rgb" block="red %red|green %green|blue %blue"
     //% advanced=true
     export function rgb(red: number, green: number, blue: number): number {
@@ -521,7 +521,7 @@ namespace neopixel {
     /**
      * Gets the RGB value of a known color
     */
-    //% weight=2 blockGap=8
+    //% weight=3 blockGap=8
     //% blockId="neopixel_colors" block="%color"
     //% advanced=true
     export function colors(color: NeoPixelColors): number {
