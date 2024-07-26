@@ -75,7 +75,7 @@ namespace neopixel {
          */
         //% blockId="neopixel_set_strip_rainbow" block="%strip|show rainbow from %startHue|to %endHue"
         //% strip.defl=strip
-        //% weight=85 blockGap=8
+        //% weight=85
         //% parts="neopixel"
         showRainbow(startHue: number = 1, endHue: number = 360) {
             if (this._length <= 0) return;
