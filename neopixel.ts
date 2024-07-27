@@ -550,7 +550,7 @@ namespace neopixel {
      * @param s saturation from 0 to 99
      * @param l luminosity from 0 to 99
      */
-    //% blockId=neopixelHSL block="hue %h|saturation %s|luminosity %l"
+    //% blockId=neopixelHSL block="hsl |hue %h|saturation %s|luminosity %l"
     //% weight=1 blockGap=50
     //% advanced=true
 export function hsl(h: number, s: number, l: number): number {
